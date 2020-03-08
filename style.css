@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrap {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.title > h1 {
+    font-size: 54px;
+    text-align: center;
+}
+
+.choice {
+    text-align: center;
+}
+
+.character {
+    display: flex;
+    justify-content: center;
+}
+
+.character > p {
+    cursor: pointer;
+}
+
+.character > p:hover {
+    opacity: 0.5;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+}
+
+.charaHand > p > img {
+    width: 120px;
+}
+
+.btnBoxTe {
+    padding-top:20px;
+    text-align: center;
+}
+
+.btnTe {
+    display: inline-block;
+    width:200px;
+    height: 80px;
+    font-size: 18px;
+    background-color: salmon;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* .selectHand {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+} */
+
+.te {
+    width: 120px;
+    cursor: pointer;
+}
+
+.te:hover {
+    opacity: 0.5;
+}
+
+.btnBoxShobu {
+    padding-top:20px;
+    text-align: center;
+}
+
+.btnShobu {
+    display: inline-block;
+    width:200px;
+    height: 80px;
+    font-size: 18px;
+    background-color: yellowgreen;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.match {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight:bold;
+}

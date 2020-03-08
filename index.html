@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>じゃんけん</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrap">
+        <section class="title">
+            <h1>じゃんけんゲーム</h1>
+        </section>
+        <section class="selectCharacter">
+            <div class="choice">
+                <h2>キャラクターをえらぶ</h2>
+            </div>
+            <div class="result">
+                <div class="character">
+                    <p><img src="img/arupaka.png" id="arupaka" alt="アルパカ"></p>
+                    <p><img src="img/inu.png" id="inu" alt="いぬ"></p>
+                    <p><img src="img/monster.png" id="monster" alt=""></p>
+                </div>
+                <div class="charaHand">
+                    <p><img src="img/gu.png" id="charaGu" alt="ぐー" style="display: none;"></p>
+                    <p><img src="img/choki.png" id="charaChoki" alt="ちょき" style="display: none;"></p>
+                    <p><img src="img/pa.png" id="charaPa" alt="ぱー" style="display: none;"></p>                
+                </div>
+            </div>
+        </section>
+        <div class="btnBoxTe">
+            <button class="btnTe" style="display: none;">手をえらぶ</button>
+        </div>
+        <section class="game">
+            <div class="selectHand">
+                <p><img src="img/gu.png" class="te" id="gu" alt="ぐー" style="display: none;"></p>
+                <p><img src="img/choki.png" class="te" id="choki" alt="ちょき" style="display: none;"></p>
+                <p><img src="img/pa.png" class="te" id="pa" alt="ぱー" style="display: none;"></p>
+            </div>
+            <div class="btnBoxShobu">
+                <button class="btnShobu"  style="display: none;">勝負！</button>
+            </div>
+            <div class="match">
+                <p class="janken" style="display: none;">じゃんけん</p>
+                <p><img src="img/gu.png" id="matchGu" alt="ぐー" style="display: none;"></p>
+                <p><img src="img/choki.png" id="matchChoki" alt="ちょき" style="display: none;"></p>
+                <p><img src="img/pa.png" id="matchPa" alt="ぱー" style="display: none;"></p>
+            </div>
+        </section>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="janken.js"></script>
+</body>
+</html>
